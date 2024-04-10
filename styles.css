@@ -1,0 +1,28 @@
+h1,h2,h3, p
+{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.menu
+{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: burlywood;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    padding: 20%;
+}
+.flavor, .dessert
+{
+    width: 75%;
+    text-align: right;
+}
+.price
+{
+    width: 25%;
+    text-align: left;
+}
+.item p
+{
+    display: inline-block;
+}

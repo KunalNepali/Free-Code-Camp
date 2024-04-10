@@ -1,0 +1,44 @@
+
+body
+{
+    background-image: url("coffee.jpg");
+    background-size: cover;
+}
+h1,h2,p
+{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.menu
+{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: burlywood;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    padding: 19%;
+}
+.flavor, .dessert
+{
+    width: 15%;
+    text-align: right;
+}
+.price
+{
+    width: 75%;
+    text-align: left;
+}
+.item p
+{
+    display: inline-block;
+}
+body, h1,h2,p, .flavor, .dessert, .menu, .price, .item p
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    font-weight: bold;
+color: aqua;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+}
